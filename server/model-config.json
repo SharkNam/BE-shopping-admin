@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "ShoppingMongo",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "ShoppingMongo",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "ShoppingMongo",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "ShoppingMongo",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "ShoppingMongo",
+    "public": false
+  },
+  "Category": {
+    "dataSource": "ShoppingMongo",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "ShoppingMongo",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "ShoppingMongo",
+    "public": true
+  },
+  "Order": {
+    "dataSource": "ShoppingMongo",
+    "public": true
+  },
+  "OrderItem": {
+    "dataSource": "ShoppingMongo",
+    "public": true
+  }
+}
