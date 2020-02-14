@@ -13,5 +13,5 @@ Create REST API for manager shopping store
 
 ![loopback](https://user-images.githubusercontent.com/56241790/74531811-40bffc80-4f60-11ea-9dcf-4d7847f8fddc.png)
 
-## Project for admin to manager
+## Project for admin to manager (front-end)
 https://github.com/ironhight/FE-shopping-admin
